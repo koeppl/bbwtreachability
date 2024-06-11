@@ -23,7 +23,7 @@ def path(start : str, end: str) -> str:
 		for i in reversed(range(len(curnode))):
 		#for i in range(len(curnode)):
 			update_stack(curnode[i:] + curnode[:i], str(i))
-		update_stack(bwt.bijective_bwt_inv(curnode), 'i')
+		# update_stack(bwt.bijective_bwt_inv(curnode), 'i')
 		update_stack(bwt.bijective_bwt(curnode), 'b')
 		stack.sort(key = lambda x : len(paths[x]), reverse=True)
 		# print(list(map(lambda x : len(paths[x]), stack)))
