@@ -1,0 +1,24 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "f5977a439f59df8c1d85dccdb486d8d21de29c51c9d7b9c0cc30bbccf054abf1"
+        },
+        "pipfile-spec": 6,
+        "requires": {},
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "bwt": {
+            "editable": true,
+            "git": "git+https://github.com/ushitora/bwt",
+            "ref": "9a2b339f7af4ca16501acf46d1e4958eda5c69c1"
+        }
+    },
+    "develop": {}
+}

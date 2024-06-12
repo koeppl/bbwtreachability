@@ -5,3 +5,7 @@ This code computationally checks with exhaustive search for sufficiently small a
 - `reachability.py` runs exhaustive search for given alphabet size and string length
 - `computepath.py` computes a shortest path from a string to another with the same Parikh vector on a graph whose edges represent BBWT or cyclic shift operations, which label the edges
 - `findlexsmaller.py` computes a shortest path from a string to a lexicographically smaller string
+
+## Usage
+
+First install `pipenv` and then run `pipenv sync`. After that you can run any of the above python problems with the prefix `pipenv run`.

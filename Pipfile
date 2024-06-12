@@ -4,5 +4,4 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-bbwt = { git = 'https://github.com/ushitora/bwt' }
-
+bwt = {editable = true, ref = "master", git = "git+https://github.com/ushitora/bwt"}
